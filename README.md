@@ -24,11 +24,19 @@ Add the code to run your experiments, graphs, and an explanation of what you did
 to this markdown file.
 
 
-The Held-Karp algorithm finds the best path so it's going to guarantee the the smallest length. The Local Search algorithm is not looking globaly at the paths so it's only finding the best path in a smaller picture. The Local Search found the 14th city in about 85 mins.
+The Held-Karp algorithm finds the best path so it's going to guarantee the the smallest length. The Local Search algorithm is not looking globaly at the paths so it's only finding the best path in a smaller picture. The Local Search found the 14th city in about 85 mins. 
 
 
 
 I've been running these for about 5 hours after adding the bitmasking and the Held-Karp hasn't found the path for the input size of 21 yet. Before the bitmasking was added I ran both overnight for about 12 hours and they we're in the saame positions. I don't know what else to do. I know it's going to be an insane growth for each larger input but this is ridiculously long. I need these to stop running so I can work on my Wildcard project this weekend.
+
+
 ![graph](https://github.com/user-attachments/assets/e4f09ee4-64de-4618-a08e-bf3769bd768a)
 ![PathLength](https://github.com/user-attachments/assets/fa954423-85e2-479a-b01d-abb9e62979d6)
 ![Screenshot (20)](https://github.com/user-attachments/assets/637cb1f5-2643-42a8-96fd-3c2f99d46913)
+
+
+https://www.geeksforgeeks.org/what-is-bitmasking-in-javascript/
+https://medium.com/@yashwanthnandam/traveling-salesman-problem-a-speed-battle-between-python-and-go-93ea447669d6
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
